@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import networkx as nx
+
 G = nx.Graph()
 for i in range(1, 5):
     G.add_node(f"command_{i}")
